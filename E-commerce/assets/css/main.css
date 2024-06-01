@@ -1,0 +1,40 @@
+/* Enhance section 1 background color */
+.section-1 {
+    background-color: #0084ff; /* Change to a deeper blue */
+}
+
+/* Adjust heading size for better hierarchy */
+.section-1-heading {
+    font-size: 3.5rem; /* Slightly reduce heading size */
+}
+
+/* Improve font consistency */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Noto Sans", sans-serif;
+    color: #333; /* Adjust heading color for better contrast */
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    color: #666; /* Adjust paragraph text color for readability */
+}
+
+/* Enhance product card design */
+.product-card {
+    margin-bottom: 20px; /* Slightly reduce margin for better spacing */
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 5px; /* Add border radius for a softer look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+/* Enhance hover effect for product cards */
+.product-card:hover {
+    transform: translateY(-2px); /* Add a slight lift effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Enhance shadow on hover */
+}
+
+/* Add a background gradient to specific sections for visual interest */
+.reg-background {
+    background-image: linear-gradient(180deg, #74baff, #0084ff);
+    /* You can adjust the gradient colors as needed */
+}
